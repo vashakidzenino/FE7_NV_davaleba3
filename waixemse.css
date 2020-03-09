@@ -1,0 +1,76 @@
+@font-face {
+	font-family: caps;
+	src: url("./waixemse/caps.ttf");
+}
+
+@font-face {
+	font-family: normal;
+	src: url("./waixemse/normal-bold.ttf");
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: normal;
+}
+
+body{
+	max-width: 1366px;
+	margin: 0 auto;
+	box-sizing: content-box;
+}
+
+header nav ul li a, h1, h2, address{
+	font-family: caps;
+}
+h3,p{
+	font-family: normal;
+}
+/* HEADER   */
+
+header{
+	margin-left: 140px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+}
+header nav ul li{
+	display: inline;
+}
+
+header nav ul li a:nth-child(1){
+	color:#181818;
+}
+header nav ul li a:nth-child(1):hover{
+	color: #BADC58;
+}
+/*header nav ul li a:nth-child(2){
+	color:#181818;
+}
+header nav ul li a:nth-child(2):hover{
+	color: #BADC58;
+}*/
+
+header nav ul li a{
+	font-size: 14px;
+	letter-spacing: 0;
+	margin: 0 15px;
+}
+
+/* MAIN  */
+.main{
+	width: 1366px;
+	height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: red;
+	margin: 15px;
+}
+
+

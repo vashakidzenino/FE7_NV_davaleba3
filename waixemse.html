@@ -2,114 +2,126 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<!--ეს რას შვება-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--ეს რას შვება-->
+	<link rel="stylesheet" href="waixemse/normal-bold.ttf">
+	<link rel="stylesheet" href="waixemse/caps.ttf">
 	<link rel="stylesheet" type="text/css" href="waixemse.css">
-	<title>წაიხემსე</title>
+	<title>1 წაიხემსე</title>
 </head>
 <body>
 	<header>
-		<!-- ლოგო-->
-			<img class="logo" src="logo.svg" alt="წაიხემსეს ლოგო">
+		<!-- ლოგო. სხვა დროს ლინკად უნდა იყოს
+			<a> <img> <a>
+		-->
+
+			<img class="logo" src="waixemse/logo.svg" alt="წაიხემსეს ლოგო" title="წაიხემსეს ლოგო">
 		<!-- მენიუ -->
 		<nav class="saitis menu">
+			<!--აქ შეგიძლია პირდაპირ <a> გაუშვა, ლისტი დაგჭირდება მაშინ როცა მენიუ ქვეჩაშლებს აკეთებს-->
 			<ul>
 				<!-- პროდუქცია -->
 				<li class="პროდუქცია">
-					 <a href="">პროდუქცია</a>
+					 <a href="#პროდუქცია" title="პროდუქცია">პროდუქცია</a>
 				</li>
 				<!-- კონტაქტი -->
-				<li class="კონტაქტი">
-					<a href="">კონტაქტი</a>
+				<li class="კონტაქტი" title="კონტაქტი">
+					<a href="#კონტაქტი">კონტაქტი</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
-	<div>
+	<div class="main">
 		<main>
-			<img src="">
+		<!--	<img src="waixemse/mainpic.png">-->
 			<h1>იტალიური სამზარეული</h1>
 			<p>განუმეორებელი კერძების ასორტიმენტი 
 				<br>იტალიური სამზარეულოდან
 			</p>
-			<a href="">
+			<a href="#პროდუქცია">
 				<button>ვრცლად</button>
 			</a>
 		</main>
-		<a href="">დაუყევი საიტს</a>
+		<a href="#პროდუქცია">დაუყევი საიტს</a>
 	</div>
-	<section>
+	<section id="პროდუქცია">
+		<h2>
+		იტალიური პასტა
+		</h2>
 		<!--სპაგეტი ალა მატრიჩიანა 1-->
-		<article>
-			<img src="1.png" alt="ალა მატრიჩიანა">
-			<h1>სპაგეტი 
-				<br>ალა მატრიჩიანა
-			</h1>
-			<p>ტომატი, ხახვი, პარმაზანი, ბაზელიკო</p>
-			<button>დამატება</button>
-		</article>
+		<ul>
+			<li>
+				<img src="waixemse/1.png" alt="ალა მატრიჩიანა">
+				<h3>სპაგეტი ალა მატრიჩიანა</h1>
+				<p>ტომატი, ხახვი, პარმაზანი, ბაზელიკო</p>
+				<button>დამატება</button>
+			</li>	
 		<!--სპაგეტი ხორცის სოუსით 2 -->
-		<article>
-			<img src="2.png" alt="ხორცის სპაგეტი">
-			<h1>სპაგეტი ხორცის
-				<br>სოუსით
-			</h1>
-			<p>ღვინო, ნიორი, ხახვი, ფარში, სპაგეტი</p>
-			<button>დამატება</button>
-		</article>		
+			<li>
+				<img src="waixemse/2.png" alt="ხორცის სპაგეტი">
+				<h3>სპაგეტი ხორცის სოუსით </h1>
+				<p>ღვინო, ნიორი, ხახვი, ფარში, სპაგეტი</p>
+				<button>დამატება</button>				
+			</li>	
 		<!--სპაგეტი ჩერით 3 -->
-		<article>
-			<img src="3.png" alt="სპაგეტი ჩერით">
-			<h1>სპაგეტი ჩერით</h1>
-			<p>ღვინო, პომიდორი, სატაცური, 
-				<br>ბაზილოკო, ყველი, ნიორი</p>
-			<button>დამატება</button>
-		</article>	
+			<li>
+				<img src="waixemse/3.png" alt="სპაგეტი ჩერით">
+				<h3>სპაგეტი ჩერით</h1>
+				<p>ღვინო, პომიდორი, სატაცური, ბაზილოკო, ყველი, ნიორი
+				<button>დამატება</button>			
+			</li>
+
 		<!--სპაგეტი ზეთისხილით 4 -->
-		<article>
-			<img src="4.png" alt="სპაგეტი ზეთისხილით">
-			<h1>სპაგეტი
-				<br>ზეთისხილით
-			</h1>
-			<p>პომიდვრები, ნიორი, ზეთი, 
-				<br>ზეთისხილი, რეჰანი</p>
-			<button>დამატება</button>
-		</article>	
+		<li>
+			<img src="waixemse/4.png" alt="სპაგეტი ზეთისხილით">
+			<h3>სპაგეტი ზეთისხილით</h1>
+			<p>პომიდვრები, ნიორი, ზეთი, ზეთისხილი, რეჰანი</p>
+			<button>დამატება</button>			
+		</li>
+
 		<!--სპაგეტი სოკოთი 5 -->
-		<article>
-			<img src="5.png" alt="სპაგეტი სოკოთი">
-			<h1>სპაგეტი სოკოთი</h1>
-			<p>სოკო, ქინძი, მარილი
-				<br>პილპილი, ყველი</p>
+		<li>
+			<img src="waixemse/5.png" alt="სპაგეტი სოკოთი">
+			<h3>სპაგეტი სოკოთი</h1>
+			<p>სოკო, ქინძი, მარილი, პილპილი, ყველი</p>
 			<button>დამატება</button>
-		</article>	
+
+		</li>
+
 		<!--სპაგეტი "კარბონარა" 6 -->
-		<article>
-			<img src="6.png" alt="სპაგეტი კარბონარა">
-			<h1>სპაგეტი 
-				<br>"კარბონარა"
-			</h1>
-			<p>სპაგეტი, კვერცხი, არაჟანი, 
-				<br>ზეთი, ბეკონი, ყველი</p>
-			<button>დამატება</button>
-		</article>					
+		<li>
+			<img src="waixemse/6.png" alt="სპაგეტი კარბონარა">
+			<h3>სპაგეტი "კარბონარა"</h1>
+			<p>სპაგეტი, კვერცხი, არაჟანი, ზეთი, ბეკონი, ყველი</p>
+			<button>დამატება</button>			
+		</li>				
 	</section>
-	<footer>
+
+	<!--ქვედა ნაწილი, ე.წ. ფუტერტი--> 
+	<footer id="კონტაქტი">
 		<div>
-			<p> მიცკევიჩის #7ა, პირველი სადარბაზო (+995) 595 494 303 </p>	
+			<address>მიცკევიჩის #7ა, პირველი სადარბაზო</address>  
+			<a href="">(+995) 595 494 303</a>
 		</div>
 		<iframe src=""></iframe>
 		<a href="www.smartacademy.ge">
-			<img src="academy-logo.svg">
+			<img src="waixemse/academy-logo.svg" alt="აკადემიის ლოგო">
 		</a>
 		<a href="www.facebook.com" target="blank">
-			<img src="Facebook.svg">
+			<img src="waixemse/Facebook.svg" alt="ფეისბუქის ლოგო">
 		</a>
 		<a href="www.instagram.com" target="blank">
-			<img src="instagram.svg">
+			<svg id="Instagram" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+			  <path id="Path_81" data-name="Path 81" d="M2.567,0H17.433A2.506,2.506,0,0,1,20,2.567V17.433A2.506,2.506,0,0,1,17.433,20H2.567A2.506,2.506,0,0,1,0,17.433V2.567A2.506,2.506,0,0,1,2.567,0Zm12,2.222a.9.9,0,0,0-.9.9V5.278a.9.9,0,0,0,.9.9h2.26a.9.9,0,0,0,.9-.9V3.123a.9.9,0,0,0-.9-.9Zm3.17,6.236h-1.76a5.85,5.85,0,0,1,.257,1.716A6.123,6.123,0,0,1,10.019,16.2,6.122,6.122,0,0,1,3.8,10.174a5.84,5.84,0,0,1,.257-1.716H2.222v8.448a.8.8,0,0,0,.8.8H16.945a.8.8,0,0,0,.8-.8V8.458ZM10.019,6.065A3.956,3.956,0,0,0,6,9.957a3.956,3.956,0,0,0,4.017,3.892,3.956,3.956,0,0,0,4.017-3.892A3.956,3.956,0,0,0,10.019,6.065Z" fill="#badc58"/>
+			</svg>
+
 		</a>
 		<a href="www.youtube.com" target="blank">
-			<img src="youtube.svg">
+			<img src="waixemse/youtube.svg" alt="იუთუბის ლოგო">
 		</a>
 		<!--css-ით ჯობია შემოვიტანო visa masterclass-ის სიმბოლო--> 
+		<img src="waixemse/cards.svg" alt="გადახდა შესაძლბელია ბარათით">
 	</footer>
 </body>
 </html>
