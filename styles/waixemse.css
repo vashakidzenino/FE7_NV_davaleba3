@@ -1,11 +1,11 @@
 @font-face {
 	font-family: caps;
-	src: url("./waixemse/caps.ttf");
+	src: url("../assets/fonts/caps.ttf");
 }
 
 @font-face {
 	font-family: normal;
-	src: url("./waixemse/normal-bold.ttf");
+	src: url("../assets/fonts/normal-bold.ttf");
 }
 
 *{
