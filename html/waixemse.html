@@ -1,131 +1,129 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<!--ეს რას შვება-->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--ეს რას შვება-->
-	<link rel="stylesheet" href="../assets/fonts/normal-bold.ttf">
-	<link rel="stylesheet" href="../assets/fonts/caps.ttf">
-	<link rel="stylesheet" type="text/css" href="../styles/waixemse.css">
-	<title>1 წაიხემსე</title>
-</head>
-<body>
-	<header>
-		<!-- ლოგო. სხვა დროს ლინკად უნდა იყოს
-			<a> <img> <a>
-		-->
+	<head>
+		<meta charset="utf-8">
+		<!--ეს რას შვება-->
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../assets/fonts/normal-bold.ttf">
+		<link rel="stylesheet" href="../assets/fonts/caps.ttf"> -->
+		<link rel="stylesheet" type="text/css" href="../styles/waixemse.css">
+		<title>1 წაიხემსე</title>
+	</head>
 
-			<img class="logo" src="../assets/icons/logo.svg" alt="წაიხემსეს ლოგო" title="წაიხემსეს ლოგო">
-		<!-- მენიუ -->
-		<nav class="saitis menu">
-			<!--აქ შეგიძლია პირდაპირ <a> გაუშვა, ლისტი დაგჭირდება მაშინ როცა მენიუ ქვეჩაშლებს აკეთებს-->
-			<ul>
-				<!-- პროდუქცია -->
-				<li class="პროდუქცია">
-					 <a href="#პროდუქცია" title="პროდუქცია">პროდუქცია</a>
-				</li>
-				<!-- კონტაქტი -->
-				<li class="კონტაქტი" title="კონტაქტი">
-					<a href="#კონტაქტი">კონტაქტი</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
-	<div class="main">
-		<main>
-		<!--	<img src="waixemse/mainpic.png">-->
-			<div class="background_img">
-				<img src="../uploads/Mainpic.png" alt="სპაგეტის მთავარი სურათი">
-			</div>
-			<div class="main_text">
+	 <body>
+	 	<!--header-->
+		<header>
+			<!-- ლოგო. სხვა დროს ლინკად უნდა იყოს <a> <img> <a>-->
+				<img class="logo" src="../assets/icons/logo.svg" alt="წაიხემსეს ლოგო" title="წაიხემსეს ლოგო">
+			<!-- მენიუ -->
+			<nav class="saitis menu">
+				<!--აქ შეგიძლია პირდაპირ <a> გაუშვა, ლისტი დაგჭირდება მაშინ როცა მენიუ ქვეჩაშლებს აკეთებს-->
+				<ul>
+					<!-- პროდუქცია -->
+					<li class="პროდუქცია">
+						<a href="#პროდუქცია" title="პროდუქცია">პროდუქცია</a>
+					</li>
+					<!-- კონტაქტი -->
+					<li class="კონტაქტი" title="კონტაქტი">
+						<a href="#კონტაქტი">კონტაქტი</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		
+		<!--Main-->
+			<main class="main">
+				<img class="background_img" src="../uploads/Mainpic.png" alt="სპაგეტის მთავარი სურათი">
 				<h1>იტალიური სამზარეული</h1>
-				<p class="p_main">განუმეორებელი კერძების ასორტიმენტი 
+				<p>განუმეორებელი კერძების ასორტიმენტი 
 					<br>იტალიური სამზარეულოდან
 				</p>
-				<a href="#პროდუქცია"> ვრცლად
-				</a>
-			</div>		
-		</main>
-		<a href="#პროდუქცია" class="div_main_a">დაუყევი საიტს</a>
-	</div>
-	<section id="პროდუქცია" class="პროდუქცია">
-		<h2>
-		იტალიური პასტა
-		</h2>
-		<!--სპაგეტი ალა მატრიჩიანა 1-->
-		<ul>
+				<a href="#პროდუქცია" class="more"> ვრცლად </a>	
+			
+				<a href="#პროდუქცია" class="go_down">დაუყევი საიტს</a>	
+			</main>	
+		<!--Content-->
+		<section id="პროდუქცია" class="products">
+			<h2>
+			იტალიური პასტა
+			</h2>
+			<!--სპაგეტი ალა მატრიჩიანა 1-->
+			<ul>
+				<li>
+					<img src="../uploads/1.png" alt="ალა მატრიჩიანა">
+					<h3>სპაგეტი 
+						<br>ალა მატრიჩიანა</h1>
+					<p>ტომატი, ხახვი, პარმაზანი, ბაზელიკო</p>
+					<button class="button">დამატება</button>
+				</li>	
+			<!--სპაგეტი ხორცის სოუსით 2 -->
+				<li>
+					<img src="../uploads/2.png" alt="ხორცის სპაგეტი">
+					<h3>სპაგეტი ხორცის სოუსით </h1>
+					<p>ღვინო, ნიორი, ხახვი, ფარში, სპაგეტი</p>
+					<button class="button">დამატება</button>				
+				</li>	
+			<!--სპაგეტი ჩერით 3 -->
+				<li>
+					<img src="../uploads/3.png" alt="სპაგეტი ჩერით">
+					<h3>სპაგეტი ჩერით</h1>
+					<p>ღვინო, პომიდორი, სატაცური, ბაზილოკო, ყველი, ნიორი</p>
+					<button class="button">დამატება</button>			
+				</li>
+
+			<!--სპაგეტი ზეთისხილით 4 -->
 			<li>
-				<img src="../uploads/1.png" alt="ალა მატრიჩიანა">
-				<h3>სპაგეტი ალა მატრიჩიანა</h1>
-				<p>ტომატი, ხახვი, პარმაზანი, ბაზელიკო</p>
-				<button>დამატება</button>
-			</li>	
-		<!--სპაგეტი ხორცის სოუსით 2 -->
-			<li>
-				<img src="../uploads/2.png" alt="ხორცის სპაგეტი">
-				<h3>სპაგეტი ხორცის სოუსით </h1>
-				<p>ღვინო, ნიორი, ხახვი, ფარში, სპაგეტი</p>
-				<button>დამატება</button>				
-			</li>	
-		<!--სპაგეტი ჩერით 3 -->
-			<li>
-				<img src="../uploads/3.png" alt="სპაგეტი ჩერით">
-				<h3>სპაგეტი ჩერით</h1>
-				<p>ღვინო, პომიდორი, სატაცური, ბაზილოკო, ყველი, ნიორი
-				<button>დამატება</button>			
+				<img src="../uploads/4.png" alt="სპაგეტი ზეთისხილით">
+				<h3>სპაგეტი ზეთისხილით</h1>
+				<p>პომიდვრები, ნიორი, ზეთი, ზეთისხილი, რეჰანი</p>
+				<button class="button">დამატება</button>			
 			</li>
 
-		<!--სპაგეტი ზეთისხილით 4 -->
-		<li>
-			<img src="../uploads/4.png" alt="სპაგეტი ზეთისხილით">
-			<h3>სპაგეტი ზეთისხილით</h1>
-			<p>პომიდვრები, ნიორი, ზეთი, ზეთისხილი, რეჰანი</p>
-			<button>დამატება</button>			
-		</li>
+			<!--სპაგეტი სოკოთი 5 -->
+			<li>
+				<img src="../uploads/5.png" alt="სპაგეტი სოკოთი">
+				<h3>სპაგეტი სოკოთი</h1>
+				<p>სოკო, ქინძი, მარილი, პილპილი, ყველი</p>
+				<button class="button">დამატება</button>
 
-		<!--სპაგეტი სოკოთი 5 -->
-		<li>
-			<img src="../uploads/5.png" alt="სპაგეტი სოკოთი">
-			<h3>სპაგეტი სოკოთი</h1>
-			<p>სოკო, ქინძი, მარილი, პილპილი, ყველი</p>
-			<button>დამატება</button>
+			</li>
 
-		</li>
+			<!--სპაგეტი "კარბონარა" 6 -->
+			<li>
+				<img src="../uploads/6.png" alt="სპაგეტი კარბონარა">
+				<h3>სპაგეტი "კარბონარა"</h1>
+				<p>სპაგეტი, კვერცხი, არაჟანი, ზეთი, ბეკონი, ყველი</p>
+				<button class="button">დამატება</button>			
+			</li>				
+		</section>
 
-		<!--სპაგეტი "კარბონარა" 6 -->
-		<li>
-			<img src="../uploads/6.png" alt="სპაგეტი კარბონარა">
-			<h3>სპაგეტი "კარბონარა"</h1>
-			<p>სპაგეტი, კვერცხი, არაჟანი, ზეთი, ბეკონი, ყველი</p>
-			<button>დამატება</button>			
-		</li>				
-	</section>
+		<!--ქვედა ნაწილი, ე.წ. ფუტერტი--> 
+		<footer id="კონტაქტი">
+			<div class="contact">
+				<address>მიცკევიჩის #7ა, პირველი სადარბაზო</address>  
+				<a href="tel:+995594494303">(+995) 595 494 303</a>
+			</div>
+			<iframe class="google map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.659157274015!2d44.78139741482549!3d41.70629318412826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd04f0da3f7%3A0x28b3664ea2476d6f!2sTerminal%20Khorava!5e0!3m2!1sen!2sge!4v1585581297548!5m2!1sen!2sge" width="1086" height="290" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			
+			<div class="footer details">
+				<a href="www.smartacademy.ge">
+					<img src="../assets/icons/academy-logo.svg" alt="აკადემიის ლოგო">
+				</a>
+				<a href="www.facebook.com" target="blank">
+					<img src="../assets/icons/Facebook.svg" alt="ფეისბუქის ლოგო">
+				</a>
+				<a href="www.instagram.com" target="blank">
+					<svg id="Instagram" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+					  <path id="Path_81" data-name="Path 81" d="M2.567,0H17.433A2.506,2.506,0,0,1,20,2.567V17.433A2.506,2.506,0,0,1,17.433,20H2.567A2.506,2.506,0,0,1,0,17.433V2.567A2.506,2.506,0,0,1,2.567,0Zm12,2.222a.9.9,0,0,0-.9.9V5.278a.9.9,0,0,0,.9.9h2.26a.9.9,0,0,0,.9-.9V3.123a.9.9,0,0,0-.9-.9Zm3.17,6.236h-1.76a5.85,5.85,0,0,1,.257,1.716A6.123,6.123,0,0,1,10.019,16.2,6.122,6.122,0,0,1,3.8,10.174a5.84,5.84,0,0,1,.257-1.716H2.222v8.448a.8.8,0,0,0,.8.8H16.945a.8.8,0,0,0,.8-.8V8.458ZM10.019,6.065A3.956,3.956,0,0,0,6,9.957a3.956,3.956,0,0,0,4.017,3.892,3.956,3.956,0,0,0,4.017-3.892A3.956,3.956,0,0,0,10.019,6.065Z" fill="#badc58"/>
+					</svg>
 
-	<!--ქვედა ნაწილი, ე.წ. ფუტერტი--> 
-	<footer id="კონტაქტი">
-		<div>
-			<address>მიცკევიჩის #7ა, პირველი სადარბაზო</address>  
-			<a href="">(+995) 595 494 303</a>
-		</div>
-		<iframe src=""></iframe>
-		<a href="www.smartacademy.ge">
-			<img src="../assets/icons/academy-logo.svg" alt="აკადემიის ლოგო">
-		</a>
-		<a href="www.facebook.com" target="blank">
-			<img src="../assets/icons/Facebook.svg" alt="ფეისბუქის ლოგო">
-		</a>
-		<a href="www.instagram.com" target="blank">
-			<svg id="Instagram" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-			  <path id="Path_81" data-name="Path 81" d="M2.567,0H17.433A2.506,2.506,0,0,1,20,2.567V17.433A2.506,2.506,0,0,1,17.433,20H2.567A2.506,2.506,0,0,1,0,17.433V2.567A2.506,2.506,0,0,1,2.567,0Zm12,2.222a.9.9,0,0,0-.9.9V5.278a.9.9,0,0,0,.9.9h2.26a.9.9,0,0,0,.9-.9V3.123a.9.9,0,0,0-.9-.9Zm3.17,6.236h-1.76a5.85,5.85,0,0,1,.257,1.716A6.123,6.123,0,0,1,10.019,16.2,6.122,6.122,0,0,1,3.8,10.174a5.84,5.84,0,0,1,.257-1.716H2.222v8.448a.8.8,0,0,0,.8.8H16.945a.8.8,0,0,0,.8-.8V8.458ZM10.019,6.065A3.956,3.956,0,0,0,6,9.957a3.956,3.956,0,0,0,4.017,3.892,3.956,3.956,0,0,0,4.017-3.892A3.956,3.956,0,0,0,10.019,6.065Z" fill="#badc58"/>
-			</svg>
-
-		</a>
-		<a href="www.youtube.com" target="blank">
-			<img src="../assets/icons/youtube.svg" alt="იუთუბის ლოგო">
-		</a>
-		<!--css-ით ჯობია შემოვიტანო visa masterclass-ის სიმბოლო--> 
-		<img src="../assets/icons/cards.svg" alt="გადახდა შესაძლბელია ბარათით">
-	</footer>
-</body>
+				</a>
+				<a href="www.youtube.com" target="blank">
+					<img src="../assets/icons/youtube.svg" alt="იუთუბის ლოგო">
+				</a>
+				<!--css-ით ჯობია შემოვიტანო visa masterclass-ის სიმბოლო--> 
+				<img src="../assets/icons/cards.svg" alt="გადახდა შესაძლბელია ბარათით">
+			</div>
+		</footer>
+	 </body>
 </html>
