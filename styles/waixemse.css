@@ -358,20 +358,37 @@ nav {
 }
 
 .burgerNav{
+   /*display da position washale*/
+    display: flex; 
+    position: absolute;
+    top:60px;
+    left:0px;
     box-sizing: border-box;
     height: calc(100vh - 60px);
     width: 100%;
     background-color: #181818;
 
+
 }
 .burgerList{
     height: calc(100vh - 60px);
     display: flex;
-    color:red;
-    flex-flow: column nowrap;
+    flex-direction: column;
     justify-content: center;
     align-items: stretch;
     text-align: center;
+
+}
+
+
+
+.extralist{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 90px;
+    margin-left: 230px;
+
 }
 hr{
     opacity: .1;
@@ -388,8 +405,22 @@ hr{
     align-items: flex-end;
     width: 90px;
     margin-bottom: 20px;
+    align-content: center;
+    border-top: 1px solid #707070;
+    width: calc(100% - 40px);
+    padding: 10px;
   
 }
+
+
+header nav ul li a:nth-child(1){
+    color:#FFFFFF
+}
+header nav ul li a:nth-child(1):hover{
+    color: #BADC58;
+
+
+
 
 
 .main h1 {
