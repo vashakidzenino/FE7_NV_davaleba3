@@ -13,16 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    document.getElementById('blist').onclick = goToProd;
-    document.getElementById('blist').onclick = goToProd;
-
-    function goToProd() {
-        for (let item of addClass) {
-            item.classList.toggle('hidden');
-        };
-        miniWhole.classList.toggle('mobile-menu');
-    }
-
     /* დამატების ღილაკი */
 	let makeOrder = document.getElementsByClassName('button');
 

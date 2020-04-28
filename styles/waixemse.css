@@ -182,9 +182,7 @@ ul {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-ul::after{
 
-}
 
 .products ul {
     display: flex;
