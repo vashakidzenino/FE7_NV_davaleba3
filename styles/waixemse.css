@@ -38,7 +38,7 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	height: 60px;
-
+    margin:0 50px;
 }
 
 header nav ul li {
@@ -143,7 +143,7 @@ main p {
 section{
     position: relative;   
     box-shadow: 0px 3px 6px #00000029;  
-  
+    margin:0 50px; 
   
 
 
@@ -256,7 +256,7 @@ footer {
   display: flex;
   color: #fff;
   flex-direction: column;
-  
+  margin:0 50px;
 
 }
 footer::before {
@@ -264,11 +264,11 @@ footer::before {
     background-image: url(../assets/others/Basil2.png);
     position: absolute;
     bottom: -892px;
-    left: -17px;
-    width: 359px;
+    left: -207px;
+    width: 317px;
     height: 172px;
     z-index: 1;
-    background-size: 373px 221px;
+    background-size: 333px 184px;
 }
 
 footer::after {
