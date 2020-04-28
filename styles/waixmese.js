@@ -6,8 +6,6 @@ burgerSelect.classList.add('hidden');
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('burger-Icon').onclick = toggleMenu;
 
-    // თოგლ მენიუ ბურგერის ქლიქზე.
-
     function toggleMenu () {
         for (let item of stausChange) {
             item.classList.toggle('hidden');
@@ -15,8 +13,17 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    document.getElementById('blist').onclick = goToProd;
+    document.getElementById('blist').onclick = goToProd;
 
+    function goToProd() {
+        for (let item of addClass) {
+            item.classList.toggle('hidden');
+        };
+        miniWhole.classList.toggle('mobile-menu');
+    }
 
+    /* დამატების ღილაკი */
 	let makeOrder = document.getElementsByClassName('button');
 
 	let bl = makeOrder.length;
