@@ -9,7 +9,7 @@
 }
 
 *{
-	margin: 0;
+	margin: 0px;
 	padding: 0;
 	text-decoration: none;
 	list-style: none;
@@ -38,6 +38,7 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	height: 60px;
+    margin:0 50px;
 }
 
 header nav ul li {
@@ -46,6 +47,7 @@ header nav ul li {
     margin: 0 15px;
     letter-spacing: 0;
 }
+
 
 header nav ul li a:nth-child(1){
     color:#181818;
@@ -140,7 +142,10 @@ main p {
 
 section{
     position: relative;   
-    box-shadow: 0px 3px 6px #00000029;   
+    box-shadow: 0px 3px 6px #00000029;  
+    margin:0 50px; 
+    height: 940px;
+    border-radius: 0 0 20 20;
 
 }
 
@@ -177,6 +182,7 @@ ul {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 .products ul {
     display: flex;
     justify-content: space-evenly;
@@ -244,11 +250,13 @@ button.added {
 /* Footter--------------------------*/
 
 footer {
-  width: 100%;
+  
   height: 557px;
   display: flex;
   color: #fff;
   flex-direction: column;
+  margin:0 50px;
+
 }
 footer::before {
     content: url(../assets/others/Basil2.png);
@@ -265,7 +273,7 @@ footer::after {
   position: absolute;
   background: #292c2f;
   left: 0;
-  height: 585px;
+  height: 602px;
   width: 100%;
   z-index: -1;
 }
@@ -327,36 +335,9 @@ address, .contact a {
   fill: #badc58;
 }
 
-/*ცადე*/
-.hidden {
-    display: none;
-}
 
 
-
-
-
-
-
-
-
-/* responsive */
-
-@media only screen and (max-width: 568px) {
-  /* main */
-body {
-    padding: 0 10px;
-}
-nav {
-    display: none;
-}
-.burgerIcon{
-    display: flex;
-    margin-right: 20px;
-    height: 20px;
-    widows: 20px;
-}
-
+/*ბურგერ მენიუ*/
 .burgerNav{
     display: flex;
     position: absolute;
@@ -389,19 +370,36 @@ margin-bottom: 45px;
 }
 .social_hover{
     margin: 20px;
-    justify-content: center;
+    justify-content: center;   
+}
 
-    
+.social_hover svg:hover path {
+  fill: #badc58;
+}
+
+.alist:nth-child(1){
+    color:#FFFFFF;
 }
 
 
 
-header nav ul li a:nth-child(1){
-    color:#FFFFFF
-}
-header nav ul li a:nth-child(1):hover{
-    color: #BADC58;
 
+
+/* responsive */
+
+@media only screen and (max-width: 568px) {
+  /* main */
+body {
+    padding: 0 10px;
+}
+nav {
+    display: none;
+}
+.burgerIcon{
+    display: flex;
+    margin-right: 20px;
+    height: 20px;
+    widows: 20px;
 }
 
 
@@ -459,7 +457,7 @@ footer, footer::after {
 
 
 }
-}
+
 
 
 @media only screen and (min-width: 568px) and (max-width: 1024px) {
@@ -478,4 +476,8 @@ footer::before {
   .main p {
     margin-bottom: 30px;
   }
+}
+
+.hidden {
+    display: none;
 }
