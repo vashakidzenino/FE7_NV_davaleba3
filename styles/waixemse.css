@@ -53,7 +53,9 @@ header nav ul li a:nth-child(1){
 header nav ul li a:nth-child(1):hover{
 	color: #BADC58;
 }
-
+.burgerNav, .burgerIcon{
+    display: none;
+}
 
 /* MAIN ------------------------------------------ */
 main{
@@ -87,13 +89,6 @@ main::before{
     object-fit: cover;
 
 }
-/*.backImg img {
-    height: calc(100vh - 60px);
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-
-}*/
 
 
 main h1{
@@ -332,6 +327,19 @@ address, .contact a {
   fill: #badc58;
 }
 
+/*ცადე*/
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
 /* responsive */
 
 @media only screen and (max-width: 568px) {
@@ -342,6 +350,47 @@ body {
 nav {
     display: none;
 }
+.burgerIcon{
+    display: flex;
+    margin-right: 20px;
+    height: 20px;
+    widows: 20px;
+}
+
+.burgerNav{
+    box-sizing: border-box;
+    height: calc(100vh - 60px);
+    width: 100%;
+    background-color: #181818;
+
+}
+.burgerList{
+    height: calc(100vh - 60px);
+    display: flex;
+    color:red;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+}
+hr{
+    opacity: .1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fff;
+    margin: 0 20px; 
+}
+.burgerFooter, .social_hover{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-end;
+    width: 90px;
+    margin-bottom: 20px;
+  
+}
+
 
 .main h1 {
     font-size: 19px;
@@ -363,6 +412,9 @@ nav {
 
 .go_down{
     display: none;
+}
+.products ul li{
+flex-basis: 60%;
 }
 
 footer::before {
@@ -390,6 +442,7 @@ footer, footer::after {
 .footer-details a{
     order:1;
 }
+
 
 }
 }
